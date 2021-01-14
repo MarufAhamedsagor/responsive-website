@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  /* Style the navigation bar Start */
+
+  .navbar .navbar-brand{
+      padding: 0 1rem 0 1rem;
+  }
+   .fig-logo{max-width:230px;
+    height: 40px;
+}
+  .nav-item .nav-link{
+      font-weight: 500;
+      color:#333;
+      padding: 1.2rem;
+      font-family: 'Roboto', sans-serif;
+  }
+  /* End the style nav bar */
+
+
+   /* Start Style the main menu */
+
+
+   /* first section style */
+   .full-content{
+       display: flex;
+       justify-content: space-between;
+       align-items: start;
+   }
+   .other{
+       margin-top: 70px;
+   }
+    .half-width{
+        width: 500px;
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .red-highlight{
+        color: #fa804c;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+    }
+    .design{
+        text-transform:uppercase;
+    }
+    .dark-highlight{
+         color: #363958;
+         font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+    }
+    .text-dark{
+        font-weight: 500;
+        margin-bottom: 22px;
+    }
+
+ h3{
+     color: #363958;
+     font-size: 40px;
+     font-weight: 800;
+     font-family: 'Roboto', sans-serif;
+ }
+ .red{
+     color: #fa804c;
+ }
+ .link-bar{
+     padding:12px 30px;
+     border-radius: 10px;
+     background-color: #394adb;
+ }
+
+.first-link{
+     margin-top: 15px;
+     width: 120px;
+     padding:12px 40px;
+     background-color: #3948d4;
+     color: white;
+     border-radius: 10px;
+     text-decoration: none;
+ }
+ /* Last Section style */
+ .last-head{
+     color: #363958;
+     font-weight: 700;
+     font-size: 30px;
+ }
+ .item-box img{
+     height: 80px;
+ }
+ .last-fig{
+     margin-left: 25px;
+ }
+ .item-box{
+     width: 400px;
+     height: auto;
+     display: flex;
+     margin-bottom: 25px;
+ } 
+ .last-photo{
+     width: 480px;
+     height: auto;
+     margin-left: 20px;
+ }
+ .photo1{
+     width: 100%;
+ }
+    .flex-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+ 
+ 
+ @media only screen and (max-width:700px){
+     .flex-container{
+         flex-direction:column-reverse;
+
+     }
+     .last-photo{
+         margin-bottom: 100px;
+     }
+     .last-item{
+         width: 130px;
+     }
+     .last-photo img{
+         width: 60%;
+         margin-left: 50px;
+     }
+     .full-content{
+         display:flex;
+         flex-direction: column-reverse;
+     }
+ }
+    
